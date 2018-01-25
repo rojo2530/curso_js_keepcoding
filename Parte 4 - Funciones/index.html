@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Funciones</title>
+</head>
+<body>
+    <script>
+
+        let anonima = function () {
+            return 'hola2';
+        }
+        function helloWorld(param1, param2, param3)
+        {
+            console.log(param1, param2, param3);
+        }
+        helloWorld("hola Jose", "Hola Mundo"); //sacara el 3 parámetro como undefined
+
+        function saludo(...param)
+        {
+            console.log(param);
+        }
+        function devolver()
+        {
+        }
+        console.log(devolver());
+        console.log("hola", "que", "tal");
+
+    </script>
+
+</body>
+</html>
